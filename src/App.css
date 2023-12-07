@@ -1,0 +1,83 @@
+@media only screen and (max-width:400px) {
+  body{
+     padding: 1rem;
+  }
+ 
+ }
+ 
+ 
+ .container{
+     background: hsl(212, 45%, 89%);
+     height: 100vh;
+     position: relative;
+ }
+ .qr_container{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     /* width: 30%; */
+     background: hsl(0, 0%, 100%);
+     padding: 2rem;
+     border-radius: 3%;
+     
+ }
+ 
+ @media only screen and (max-width:750px) {
+     .container{
+         padding: 4rem;
+     }
+     .qr_container{
+         width: 70%;
+     }
+ }
+ 
+ @media only screen and (max-width:560px) {
+     .qr_container{
+         width: 100%;
+     }
+ 
+ }
+ 
+ .qr_image{
+     height: 45vh;
+     width: 100%;
+     border-radius: 3%;
+ }
+ .qr_text{
+     margin-top:1rem;
+     line-height: 1.5;
+     font-size: 1.5rem;
+     /* font-family: [Outfit](https://fonts.google.com/specimen/Outfit); i dont know to use it(font-family) */  
+     font-weight: 400, 700;
+     text-align: center;
+ }
+ .block{
+     font-weight:bolder;
+     /* letter-spacing: .1rem; */
+     color:  hsl(218, 44%, 22%);
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .inline{
+     color: hsl(220, 15%, 55%);  
+ }
+ 
+ .first{
+     margin-top: 1rem;
+ }
+ .attribution{
+    font-size: 1.6rem;
+    color:  hsl(218, 44%, 22%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    text-align: center;
+
+    
+ }
+ .decorate{
+     text-decoration: none;
+    color:  hsl(218, 44%, 22%);
+
+ }
+ 
+ 
